@@ -25,6 +25,9 @@ jobs:
       with:
         java-version: 18.0.0+36
         distribution: 'adopt'
+        
+    - name: Grant execute permission to gradlew
+      run: chmod +x ./gradlew
 
     - name: Run unit tests
       run: ./gradlew test
