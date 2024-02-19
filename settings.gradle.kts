@@ -16,4 +16,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "QuizConsruct"
 include(":app")
- 
+include(":features:main")
+include(":core:common")
+include(":core:android")
+include(":navigation")
