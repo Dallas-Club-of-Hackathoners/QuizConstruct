@@ -1,11 +1,6 @@
 name: Unit Tests
 
 on:
-  push:
-    branches:
-      - main
-      - dev
-      - dev_danil
   pull_request:
     branches:
       - main     
